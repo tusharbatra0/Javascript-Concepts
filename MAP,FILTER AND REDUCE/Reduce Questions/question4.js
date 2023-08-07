@@ -6,7 +6,7 @@ let wishlist = [
     { title: "Gold fidgit spinner", price: 2000 },
     { title: "A second Tesla Model S", price: 90000 }
 ];
-let totalprice = wishlist.reduce((acc , curr) =>{
+let totalprice = wishlist.reduce((acc , curr) => {
     return acc = acc + curr.price
 } ,0)
 console.log(totalprice)

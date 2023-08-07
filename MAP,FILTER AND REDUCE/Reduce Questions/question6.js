@@ -14,7 +14,7 @@ var voters = [
     {name: 'Zack', age: 19, voted: false}
 ];
 let agedvoters = voters.reduce((acc , curr) => {
-    // 18-35
+    // 18-25
     if(curr.age >= 18 && curr.age <= 25){
         if(curr.voted === true){
              acc.numYoungVotes = acc.numYoungVotes + curr.voted
